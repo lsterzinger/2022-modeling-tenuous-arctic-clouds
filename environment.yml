@@ -1,14 +1,12 @@
 name: arctic-clouds-plots
 channels:
-  - conda_forges
+  - conda-forge
 dependencies:
   - python >= 3.6
   - matplotlib
   - xarray
+  - netcdf4
   - cartopy
   - numpy
-  - glob
   - pandas
   - jupyterlab
-  - pip:
-    - ramslibs
