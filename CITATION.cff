@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Sterzinger"
+    given-names: "Lucas"
+    orcid: "https://orcid.org/0000-0003-3321-4534"
+title: "Plotting scripts for Sterzinger et al (2022) (in prep)"
+version: 0.0.1
+date-released: 2022-01-11
+doi: 10.5281/zenodo.5838483
+url: "https://github.com/lsterzinger/2022-modeling-tenuous-arctic-clouds/"
