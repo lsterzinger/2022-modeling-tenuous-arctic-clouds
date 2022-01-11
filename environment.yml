@@ -1,4 +1,4 @@
-name: arctic-clouds=plots
+name: arctic-clouds-plots
 channels:
   - conda_forges
 dependencies:
