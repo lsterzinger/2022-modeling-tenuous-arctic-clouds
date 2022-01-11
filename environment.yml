@@ -1,0 +1,13 @@
+name: arctic-clouds=plots
+channels:
+  - conda_forges
+dependencies:
+  - python >= 3.6
+  - matplotlib
+  - xarray
+  - cartopy
+  - numpy
+  - glob
+  - pandas
+  - pip:
+    - ramslibs
