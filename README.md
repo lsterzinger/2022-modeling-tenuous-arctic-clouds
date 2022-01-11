@@ -6,7 +6,7 @@ Plotting notebooks to reproduce all figures in the paper are located in [./plott
 
 NOTE: Data is not included in this repository. To download required data, run `./get_model_data.sh` and `./get_obs_data.sh`.
 
-A Conda environment is included, install and launch a Jupyter Lab instance with:
+A Conda environment is included. If you do not have conda installed, I recommend [miniconda](https://docs.conda.io/en/latest/miniconda.html). Create the environment and launch a Jupyter Lab instance with:
 ```
 conda create env -f environment.yml
 conda activate arctic-clouds-plots
