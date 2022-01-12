@@ -1,4 +1,4 @@
-BASE_URL="http://farm.cse.ucdavis.edu/~lsterzin/modeling_tenuous_arctic_clouds_data/"
+BASE_URL="http://farm.cse.ucdavis.edu/~lsterzin/modeling_tenuous_arctic_clouds_data/model/"
 
 echo "Downloading RAMS model data from ${BASE_URL}"
 
