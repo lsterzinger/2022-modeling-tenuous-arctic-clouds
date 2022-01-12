@@ -35,3 +35,6 @@ All data from ASCOS downloaded by the script comes directly from ASCOS data sour
 
 ### SMT Data
 All data from summit downloaded also comes from https://www.arm.gov, but has been re-hosted on a UC Davis compute cluster for easier access and can also be found at https://adc.arm.gov/discovery/#/results/site_code::smt
+
+### ERA5 Data
+Plots 2,3, and 4 use ECMWF ERA5 reanalysis data, obtained from https://rda.ucar.edu/datasets/ds633.0/ and distributed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
