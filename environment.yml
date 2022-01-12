@@ -10,3 +10,5 @@ dependencies:
   - numpy
   - pandas
   - jupyterlab
+  - metpy
+  - dask

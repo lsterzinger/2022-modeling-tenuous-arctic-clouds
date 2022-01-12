@@ -35,8 +35,10 @@ echo "======================"
 echo "\n\nDownloading Radar Data\n\n"
 
 ascos_path="$basedir/data/obs/ASCOS"
+[ ! -d $ascos_path ] && mkdir -p $ascos_path
+cd $ascos_path
 
-curl -C - --create-dirs "ftp://ftp1.esrl.noaa.gov/psd3/cruises/ASCOS_2008/ODEN/radar/mmcr/DAMOCLES/ascos_mmcrmerge.C1.c1.20080831.000000.nc" -o "data/obs/ASCOS/ascos_mmcrmerge.C1.c1.20080831.000000.nc"
+wget "ftp://ftp1.esrl.noaa.gov/psd3/cruises/ASCOS_2008/ODEN/radar/mmcr/DAMOCLES/ascos_mmcrmerge.C1.c1.20080831.000000.nc" 
 
 # Temp dir to download zips
 tempdir="$basedir/temp"
@@ -64,3 +66,9 @@ curl -C - "http://farm.cse.ucdavis.edu/~lsterzin/modeling_tenuous_arctic_clouds_
 curl -C - "http://farm.cse.ucdavis.edu/~lsterzin/modeling_tenuous_arctic_clouds_data/obs/ASCOS/e5.oper.an.sfc.128_167_2t.ll025sc.2008080100_2008083123.nc" -o $ascos_path/e5.oper.an.sfc.128_167_2t.ll025sc.2008080100_2008083123.nc
 
 # [ -d $tempdir ] && rm -rf $tempdir
+
+cd $basedir
+echo "===================="
+echo "Downloading SMT data"
+echo "===================="
+
