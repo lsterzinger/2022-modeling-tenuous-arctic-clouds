@@ -34,7 +34,12 @@ All observation data from oliktok point is from the Department of Energy (DOE) A
 All data from ASCOS downloaded by the script comes directly from ASCOS data sources: either https://bolin.su.se/data/ascos, http://www.ascos.se, or ftp://ftp1.esrl.noaa.gov/psd3/cruises/ASCOS_2008/ODEN/radar/mmcr/DAMOCLES
 
 ### SMT Data
-All data from summit downloaded also comes from https://www.arm.gov, but has been re-hosted on a UC Davis compute cluster for easier access and can also be found at https://adc.arm.gov/discovery/#/results/site_code::smt
+Radar, sounding, and microwave radiometer data from summit downloaded comes from https://adc.arm.gov/discovery/#/results/site_code::smt. The aerosol data was taken from the UK [Centre for Environmental Data Analysis (CEDA)](https://catalogue.ceda.ac.uk/uuid/f56980457ce240ccab5ac6d403c81e7a) and can be cited as follows:
+```
+Guy, H.; Neely III, R.R.; Brooks, I. (2020): ICECAPS-ACE: surface aerosol concentration measurements (condensation nuclei > 5nm diameter) taken at Summit Station Greenland. Centre for Environmental Data Analysis, date of citation. https://catalogue.ceda.ac.uk/uuid/f56980457ce240ccab5ac6d403c81e7a
+```
+
+but has been re-hosted on a UC Davis compute cluster for easier access.
 
 ### ERA5 Data
 Plots 2,3, and 4 use ECMWF ERA5 reanalysis data, obtained from https://rda.ucar.edu/datasets/ds633.0/ and distributed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
