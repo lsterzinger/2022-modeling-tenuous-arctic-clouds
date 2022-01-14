@@ -36,7 +36,9 @@ All data from ASCOS downloaded by the script comes directly from ASCOS data sour
 ### SMT Data
 Radar, sounding, and microwave radiometer data from summit downloaded comes from https://adc.arm.gov/discovery/#/results/site_code::smt. The aerosol data was taken from the UK [Centre for Environmental Data Analysis (CEDA)](https://catalogue.ceda.ac.uk/uuid/f56980457ce240ccab5ac6d403c81e7a) and can be cited as follows:
 ```
-Guy, H.; Neely III, R.R.; Brooks, I. (2020): ICECAPS-ACE: surface aerosol concentration measurements (condensation nuclei > 5nm diameter) taken at Summit Station Greenland. Centre for Environmental Data Analysis, date of citation. https://catalogue.ceda.ac.uk/uuid/f56980457ce240ccab5ac6d403c81e7a
+Guy, H.; Neely III, R.R.; Brooks, I. (2020): ICECAPS-ACE: surface aerosol concentration measurements 
+  (condensation nuclei > 5nm diameter) taken at Summit Station Greenland. Centre for Environmental Data Analysis, 
+  date of citation. https://catalogue.ceda.ac.uk/uuid/f56980457ce240ccab5ac6d403c81e7a
 ```
 
 but has been re-hosted on a UC Davis compute cluster for easier access.
