@@ -73,7 +73,7 @@ echo
 echo "Processing ASCOS aerosol data"
 echo
 
-python data-processing-scripts/process-ascos-aerosol-data.py $ascos_path
+python data-processing-scripts/process-ascos-data.py $ascos_path
 
 echo
 echo "Downloading ASCOS ERA5 Data"
