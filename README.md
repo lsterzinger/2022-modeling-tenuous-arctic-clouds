@@ -1,4 +1,4 @@
-# Plotting scripts for Sterzinger et al. (2022)
+# Plotting scripts for Sterzinger et al. (2022; in prep)
 
 *Link to paper will be provided here when available*
 
