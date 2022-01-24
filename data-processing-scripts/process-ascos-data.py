@@ -42,7 +42,7 @@ sounding_columns = [
     'Rhi', 'SpecHum', 'DewPt', 'Wspeed', 'Wdir', 'U', 'V'
 ]
 
-sounding = pd.read_csv('./data/obs/ASCOS/Radiosonde_2008_08_31_0535.txt', 
+sounding = pd.read_csv(f'{datapath}/Radiosonde_2008_08_31_0535.txt', 
     skiprows=3, sep="\s+|\t+|\s+\t+|\t+\s+", header=None, names=sounding_columns)
 
 sounding.to_csv(f'{datapath}/Radiosonde_2008_08_31_0535.csv', index=False)
