@@ -38,7 +38,7 @@ N.to_csv(f'{datapath}/ascos_aerosol_N.csv', header=['N'])
 ####################
 print("Processing Sounding")
 sounding_columns = [
-    'Height', 'Pressure', 'Time', 'Long', 'Lat', 'TempC', 'ThetaC', 'ThetaK', 'ThetaEC', 'Rhl',
+    'Height', 'Pressure', 'Time', 'Long', 'Lat', 'TempC', 'ThetaC', 'ThetaE', 'Rhl',
     'Rhi', 'SpecHum', 'DewPt', 'Wspeed', 'Wdir', 'U', 'V'
 ]
 
