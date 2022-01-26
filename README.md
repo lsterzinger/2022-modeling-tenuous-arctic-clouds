@@ -1,6 +1,6 @@
-# Plotting scripts for Sterzinger et al. (2022; in prep)
+# Plotting scripts for Sterzinger et al. (2022; in review)
 
-*Link to paper will be provided here when available*
+[Link to preprint in Atmospheric Chemistry and Physics](https://acp.copernicus.org/preprints/acp-2022-36/)
 
 Plotting notebooks to reproduce all figures in the paper are located in [./plotting-scripts](./plotting-scripts).
 
