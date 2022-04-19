@@ -2,7 +2,7 @@
 
 [Link to preprint in Atmospheric Chemistry and Physics](https://acp.copernicus.org/preprints/acp-2022-36/)
 
-Plotting notebooks to reproduce all figures in the paper are located in [./plotting-scripts](./plotting-scripts).
+Plotting notebooks to reproduce all figures in the paper are located in [./figure-notebooks](./figure-notebooks).
 
 NOTE: Data is not included in this repository. To download required data, run `./get_model_data.sh` and `./get_obs_data.sh`.
 
