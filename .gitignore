@@ -1,6 +1,7 @@
 *.nc
 *.csv
 *.cdf
+._*
 temp/
 # Byte-compiled / optimized / DLL files
 __pycache__/
