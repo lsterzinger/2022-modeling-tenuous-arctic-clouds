@@ -3,6 +3,8 @@
 *.cdf
 ._*
 temp/
+data/model/
+data/obs/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
